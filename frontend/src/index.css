@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dash-bg: #f0f4ff;
+  --dash-surface: #ffffff;
+  --dash-line: #e1e8f5;
+  --dash-accent: #2563eb;
+  --dash-text-primary: #0d1f3c;
+  --dash-text-secondary: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--dash-bg);
+  color: var(--dash-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #f0f4ff; }
+::-webkit-scrollbar-thumb { background: #bfdbfe; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #93c5fd; }
+
+.card-container {
+  @apply bg-white rounded-xl border border-blue-100 shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2.5 rounded-lg transition-all shadow-md shadow-blue-600/20 text-sm;
+}
+
+/* Dark landing page */
+.landing-body {
+  background: #0a1628;
+  color: white;
+}
