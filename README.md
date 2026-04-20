@@ -1,4 +1,4 @@
-# Haulage TMS — Enterprise Fleet Management System
+# Enterprise Fleet Management System
 
 A full-stack haulage truck management system built with **Django REST Framework** (backend) and **React + TypeScript + Tailwind CSS** (frontend). Blue and white enterprise UI with a particle.js landing page, DataTable-style grids with CSV export, JWT authentication, and full CRUD for trucks, drivers, and delivery jobs.
 
